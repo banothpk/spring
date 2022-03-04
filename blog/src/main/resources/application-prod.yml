@@ -1,8 +1,0 @@
-spring:
-  datasource:
-    url: jdbc:postgresql://${POSTGRESQL_HOSTNAME}:${POSTGRESQL_PORT:5432}/${POSTGRESQL_DB_NAME}
-    username: ${POSTGRESQL_DB_USER}
-    password: ${POSTGRESQL_DB_PASSWORD}
-  jpa:
-    hibernate:
-      ddl-auto: update
